@@ -1,2 +1,2 @@
 # form-validation
- This is a somple form validation project on the client side
+ This is a simple form validation project on the client side
