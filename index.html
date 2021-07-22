@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple client side form validation</title>
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <div id="errorMsg"></div>
+    <form action="/" method="GET" id="form">
+        <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" placeholder="Put your name here!">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" placeholder="Enter your password here.">
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
